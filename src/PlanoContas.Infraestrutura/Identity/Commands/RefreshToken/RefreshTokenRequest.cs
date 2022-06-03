@@ -1,0 +1,8 @@
+﻿namespace PlanoContas.Infraestrutura.Identity.Commands.RefreshToken
+{
+    public class RefreshTokenRequest
+    {
+        public string? AccessToken { get; set; }
+        public string? RefreshToken { get; set; }
+    }
+}
